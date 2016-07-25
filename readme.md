@@ -27,10 +27,23 @@ Your project is likely not in the same folder so take a few moments to get acqai
 Once you've navigated to your project folder, we'll need to initialize git and set up our repo as the "remote". Let's look at the instructions github gave us when we created the new repo:
 ![git instructions](http://devjana.net/prework/week3Pics/05 gitInstructionsUpdated.png)
 
-Let's use these commands in the folder of our project in the Terminal. This will "commit" the current state of the project. At this point the changes are saved only locally. We're going to want to "push" them to our remote repo shortly.
-In the example
+Let's use these commands in the folder of our project in the Terminal. This will "commit" the current state of the project.
+This process is something to which you'll get used with practice, but the basic flow is as follows:
+* Make changes
+* add
+* commit (local)
+* push (remote)
+
+At this point you've made changes (yes, creating the files counts as changes) and we're going to add the changes to the git project, then commit them.
+
+In the example they only have the "README.md" file and if you look at the example they add just that one file. We're going to cheat a bit and use the following command "git add ." which adds all changed files.  
+We'll also be using the "git commit -m" command followed by a commit message (thus the "-m").
+Use the following commands:
+git add .
+git commit -m 'my first commit':
 ![local add commit](http://devjana.net/prework/week3Pics/06 localAddCommit.png)
 
+At this point the changes are saved only locally. We're going to want to "push" them to our remote repo next. This will make them available from anywhere and eventually you'll be adding "collaborators" to your github projects for group work.
 
 
 ![push to origin master](http://devjana.net/prework/week3Pics/07 pushToOriginMaster.png)
