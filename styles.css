@@ -1,0 +1,13 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: darkred;
+    margin-left: 20px;
+}
+
+p {
+    color: purple;
+    margin-left: 20px;
+}
