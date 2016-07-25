@@ -7,7 +7,7 @@ First, If you haven't installed Git: https://git-scm.com/downloads
 Next, let's examine the project you are asked to create for this week:  
 ![assignment overview](http://devjana.net/prework/week3Pics/00 assignmentOverview.png)
 
-Get this in order. Just something simple with the html, css, and js files. Nothing too fancy needed. The goal here is to get you used to using Git & the terminal. You can always update the content later.
+Create the above first. Just something simple with the html, css, and js files. Nothing too fancy needed. The goal here is to get you used to using Git & the terminal. You can always update the content later.
 
 Project in order? OK. Now log in to github and create a new repo:
 ![new repo button](http://devjana.net/prework/week3Pics/01 newRepoButton.png)
