@@ -38,6 +38,9 @@ At this point you've made changes (yes, creating the files counts as changes) an
 
 In the example they only have the "README.md" file and if you look at the example they add just that one file. We're going to cheat a bit and use the following command "git add ." which adds all changed files.  
 We'll also be using the "git commit -m" command followed by a commit message (thus the "-m").
+
+Note that, in my example, I'm asked for my username and password. Depending on your setting you may not need to do this. Also, it is VERY important to note that, if asked for your password, it will NOT display while you are typing it.
+
 Use the following commands:
 git add .
 git commit -m 'my first commit':
@@ -53,5 +56,7 @@ If all went well, you should see a message similar to the following which lets y
 
 Refresh the guthub repo page and you'll see your work is now in the remote repo:
 ![github updated](http://devjana.net/prework/week3Pics/09 githubUpdated.png)
+
+Note that files display the commit messages of their last change.
 
 Now that you've successfully pushed your project to github you'll be able to access it from wherever. If you'd like to continue to make changes you can simply add/commit when changes are made then "git push origin master" and the github repo will be updated!
