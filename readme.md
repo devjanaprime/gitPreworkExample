@@ -25,10 +25,12 @@ Now we'll need to navigate to the project folder. I've put mine on the desktop i
 
 Your project is likely not in the same folder so take a few moments to get acqainted with this process and navigate to your project's folder. You can use the "ls" command to list the files/folders in the current folder at any time.
 Once you've navigated to your project folder, we'll need to initialize git and set up our repo as the "remote". Let's look at the instructions github gave us when we created the new repo:
-![git instructions](http://devjana.net/prework/week3Pics/05 gitInstructions.png)
+![git instructions](http://devjana.net/prework/week3Pics/05 gitInstructionsUpdated.png)
 
 Let's use these commands in the folder of our project in the Terminal. This will "commit" the current state of the project. At this point the changes are saved only locally. We're going to want to "push" them to our remote repo shortly.
+In the example
 ![local add commit](http://devjana.net/prework/week3Pics/06 localAddCommit.png)
+
 
 
 ![push to origin master](http://devjana.net/prework/week3Pics/07 pushToOriginMaster.png)
