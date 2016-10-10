@@ -4,12 +4,13 @@ Git is a Version Control (VC) tool that can be pretty intimidating so we'll take
 
 First, If you haven't installed Git: https://git-scm.com/downloads
 
+## I. Create the project files
 Next, let's discuss the simple project for this week:  
+
 * index.html
 * javascript with a simple function
 * css file
 
-## I. Create file structure
 Create the above first. Just something simple with the html, css, and js files. There should be a function in the js file that is run onLoad for the body and another that is triggered when the user clicks on an element on the page. Nothing too fancy needed. You can use the above as an example.
 
 The next goal is to get you acquainted to using Git & the terminal. You can always update the content later.
@@ -26,7 +27,7 @@ You'll now see something like the following. This is fine for now as your shiny 
 
 Leave the repo URL tab open as we'll return to it later.
 
-## III. Create a Git repo (via the terminal)
+## III. terminal basics
 Next, let's open the Terminal. If you are new to Macs you'll find the Terminal in Application - Utilities:
 ![open terminal](images/03 terminal.png)
 
@@ -37,6 +38,7 @@ Your project is likely not in the same folder so take a few moments to get acqai
 Once you've navigated to your project folder, we'll need to initialize git and set up our repo as the "remote". Let's look at the instructions github gave us when we created the new repo:
 ![git instructions](images/05 gitInstructionsUpdated.png)
 
+## IV. Create a Git repo (via the terminal)
 Before we can use Git at all, we'll need to initialize git in the project's folder. In the terminal type in and execute `git init`. You should receive a message showing that git has "Initialized empty git repository in," your project folder.
 
 Let's use these commands in the folder of our project in the Terminal. This will "commit" the current state of the project.
@@ -48,7 +50,8 @@ This process is something to which you'll get used with practice, but the basic 
 
 At this point you've made changes (yes, creating the files counts as changes) and we're going to add the changes to the git project, then commit them.
 
-In the example they only have the "README.md" file and if you look at the example they add just that one file. We're going to cheat a bit and use the following command `git add .` which adds all changed files.  
+## V. git add & git commit
+We're going to use the following command `git add .` which adds all changed files.  
 We'll also be using the `git commit -m` command followed by a commit message (thus the "-m").
 
 Note that, in my example, I'm asked for my username and password. Depending on your setting you may not need to do this. Also, it is VERY important to note that, if asked for your password, it will NOT display while you are typing it.
@@ -60,6 +63,7 @@ Use the following commands:
 
 ![local add commit](images/06 localAddCommit.png)
 
+## VI. git push to remote (github)
 At this point the changes are saved only locally. We're going to want to "push" them to our remote repo next. This will make them available from anywhere and eventually you'll be adding "collaborators" to your github projects for group work.
 
 
@@ -68,7 +72,7 @@ At this point the changes are saved only locally. We're going to want to "push" 
 If all went well, you should see a message similar to the following which lets you know that the push was successful:
 ![origin updated](images/08 originUpdated.png)
 
-## IV. Check your work on GitHub
+## VII. Check your work on GitHub
 Refresh the guthub repo page and you'll see your work is now in the remote repo:
 ![github updated](images/09 githubUpdated.png)
 
