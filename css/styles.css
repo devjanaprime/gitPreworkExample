@@ -11,3 +11,10 @@ p {
     color: purple;
     margin-left: 20px;
 }
+
+button {
+  font-family: Arial;
+  color: #000000;
+  font-size: 12px;
+  background: #d93434;
+}
